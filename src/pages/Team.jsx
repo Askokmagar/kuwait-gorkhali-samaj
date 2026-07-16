@@ -56,7 +56,8 @@ const PersonCard = ({ image, name, role, size = "md", direction }) => {
     <motion.div
       variants={cardVariants(direction, reduceMotion)}
       className="
-        bg-white rounded-2xl p-5 text-center
+        w-56
+      bg-white rounded-2xl p-5 text-center
         border border-gray-200
         shadow-sm md:shadow-md
         transition-all duration-300
@@ -126,7 +127,15 @@ const Section = ({ title, head, members, footerText }) => {
           whileInView="visible"
           viewport={{ once: true, amount: 0.2 }}
           variants={containerVariants}
-          className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 mt-12"
+          className="
+          flex
+          flex-wrap
+          justify-center
+          gap-8
+          mt-12
+          max-w-4xl
+          mx-auto
+          "
         >
           {members.map((m, i) => (
             <PersonCard
