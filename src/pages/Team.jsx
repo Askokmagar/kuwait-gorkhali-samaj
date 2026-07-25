@@ -208,7 +208,6 @@ export default function Team() {
           role: "Head of Public Relations",
         }}
         members={[
-          { image: "https://ianepgfuevjadgydaudv.supabase.co/storage/v1/object/public/New%20Data%20Base/Darshan%20Bhai.webp", name: "Darshan Rai", role: "PR Coordinator" },
           { image: "https://ianepgfuevjadgydaudv.supabase.co/storage/v1/object/public/New%20Data%20Base/Rupesh%20Broo.webp", name: "Rupesh Rai", role: "PR Coordinator" },
         ]}
       />
@@ -222,7 +221,7 @@ export default function Team() {
           role: "Head of Administration",
         }}
         members={[
-          { image: "https://ianepgfuevjadgydaudv.supabase.co/storage/v1/object/public/New%20Data%20Base/Sibani%20Cheetri.webp", name: "Sibani Chettri", role: "Administration & Records" },
+          { image: "https://ianepgfuevjadgydaudv.supabase.co/storage/v1/object/public/New%20Data%20Base/Sib.jpeg", name: "Sibani Chettri", role: "Administration & Records" },
           { image: "https://ianepgfuevjadgydaudv.supabase.co/storage/v1/object/public/Samaj%20Data/Abhishek.jpeg", name: "Abhishek Chhetri", role: "Administration & Records" },
         ]}
       />
